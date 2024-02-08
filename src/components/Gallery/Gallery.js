@@ -24,7 +24,7 @@ const Gallery = () => {
         </div>
 
         <div className={classes.headingBox}>
-          <h3 className={classes.heading}>Karma - Corridor</h3>
+          <h3 className={classes.heading}>Spectrum'24 Corridor</h3>
           <p className={classes.para}>
             The programme includes a variety of activities, including technical,
             non-technical, hackathons, and project contests. The event is

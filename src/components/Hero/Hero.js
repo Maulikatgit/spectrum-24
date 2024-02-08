@@ -12,7 +12,7 @@ const Hero = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("April 28 2023 18:00:00").getTime();
+    const countdownDate = new Date("February 29 2024 18:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -64,7 +64,6 @@ const Hero = () => {
         <div className={classes.countdownbox}>
           <div className={classes.countdown}>
             //<p>{countDays}</p>
-            <p>00</p>
             <p>
               <small>Days</small>
             </p>
@@ -74,7 +73,6 @@ const Hero = () => {
 
           <div className={classes.countdown}>
             //<p>{countHours}</p>
-            <p>00</p>
             <p>Hours</p>
           </div>
 
@@ -82,14 +80,12 @@ const Hero = () => {
 
           <div className={classes.countdown}>
             //<p>{countMinutes}</p>
-            <p>00</p>
             <p>Min</p>
           </div>
 
           <span className={classes.column}>:</span>
           <div className={classes.countdown}>
             //<p>{countSeconds}</p>
-            <p>00</p>
             <p>Sec</p>
           </div>
         </div>

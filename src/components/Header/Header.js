@@ -95,14 +95,14 @@ const Header = () => {
             <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
-                to="ambassador"
+                to="newpop"
                 spy="true"
                 smooth={true}
                 offset={-120}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="#ambassador">
+                <HashLink className={classes.homeLink} to="#newpop">
                   Register
                 </HashLink>
               </Drop>

@@ -5,6 +5,7 @@ import App from "./App";
 import Header from "./components/Header/Header";
 import Loader from "./UI/Loader/Loader";
 import Footer from "./components/Footer/Footer";
+import RegistrationForm from "./components/Ambassadar/newpop";
 
 const Gallery = React.lazy(() => import("./pages/Gallery/Gallery"));
 const CulturalDetail = React.lazy(() =>
@@ -51,6 +52,7 @@ const MyRoutes = () => {
             <Route path="/events/games/:id" element={<GamesDetail />} />
             {/* <Route path="/events/talk/:id" element={<TalkDetail />} /> */}
             <Route path="/tickets" element={<Tickets />} />
+            <Route path="/register" element={<RegistrationForm />} />
           </Routes>
         </Suspense>
       </main>
