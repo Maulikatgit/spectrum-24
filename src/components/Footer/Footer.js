@@ -15,8 +15,8 @@ const Footer = () => {
         <div className={classes.col}>
           <img className={classes.karma} src={Logo} alt="Karma logo" />
           <p className={classes.para}>
-            Annual national level techno managerial cultural extravaganza of the
-            KMCT College of Engineering. Karma enables brilliant minds to
+            Annual national level techno managerial cultural extravaganza of ADIT
+            . Spectrum'24 enables brilliant minds to
             compete, discuss ideas, educate others about new technical
             breakthroughs, and be a part of the tech platform.
           </p>
@@ -24,9 +24,9 @@ const Footer = () => {
 
         <div className={classes.col}>
           <h3>Contact us</h3>
-          <p>KMCT College Of Engineering, Kallanthode</p>
-          <p>NITC - P.O</p>
-          <p>Kozhikode - 673601</p>
+          <p>A D Patel Institute Of Technology,</p>
+          <p>New Vallabh Vidhyanagar</p>
+          <p>Anand 388121 </p>
           {/* <p className={classes.email}>karmakmct23@gmail.com</p> */}
           <p className={classes.contactNo}>Pradyoth Satheesh - 9446 982 558</p>
           <p className={classes.contactNo}>Naja Saleem - 6235 451 154</p>
@@ -115,7 +115,7 @@ const Footer = () => {
       </div>
       <hr className={classes.hr} />
       <p className={classes.copyright}>
-        Karma'23 | Copyright &#169; All rights reserved.
+      Spectrum'24 | Copyright &#169; All rights reserved.
       </p>
     </footer>
   );

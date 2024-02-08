@@ -48,9 +48,9 @@ const Hero = () => {
     <section id="home" className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
-          <h1 className={classes.heading}>Karma 23</h1>
-          <h4 className={classes.caption}>What goes around comes around</h4>
-          <p className={classes.date}>APRIL 28-30, 2023</p>
+          <h1 className={classes.heading}>Spectrum'24</h1>
+          <h4 className={classes.caption}>Experience the electrifying vibes of Spectrum '24! ⚡</h4>
+          <p className={classes.date}>February 29 and March 1,2</p>
           <Link
             className={classes.anchorBtn}
             target="_blank"
