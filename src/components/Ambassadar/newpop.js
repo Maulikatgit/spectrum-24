@@ -21,7 +21,7 @@ const RegistrationForm = () => {
 
   return (
     <div className="container">
-      <h2>Registration Form</h2>
+      <h2 className='header'>Registration Form</h2>
       <form>
         <label htmlFor="name"><b>Full Name</b></label>
         <input type="text" id="name" name="name" required placeholder="Enter your full name" value={name} onChange={(e) => setName(e.target.value)} />
